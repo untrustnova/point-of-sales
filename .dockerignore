@@ -1,0 +1,44 @@
+# Git
+.git
+.gitignore
+
+# Dependencies
+node_modules
+vendor
+.bun
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Laravel storage and cache
+storage/logs
+storage/framework/cache
+storage/framework/sessions
+storage/framework/views
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+.phpunit.cache
+
+# Frontend builds
+public/build
+public/hot
+bootstrap/ssr
+
+# Tests
+tests
+
+# IDE and Editor
+.idea
+.vscode
+.zed
+.claude
+.agents
+
+# GitHub
+.github
+
+# OS generated files
+.DS_Store
+Thumbs.db
